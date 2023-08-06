@@ -15,8 +15,8 @@
 //#define WRAITH32V2_F051
 //#define AIKON20X20_F051
 //#define AIKONSINGLE_F051
-//#define FLYCOLOR_F051
-#define AM32REF_F051
+#define FLYCOLOR_F051
+//#define AM32REF_F051
 //#define BLPWR_F051
 //#define HVFLYCOLOR_F051
 //#define FLASHHOBBY_F051
@@ -229,7 +229,7 @@
 
 #ifdef FLYCOLOR_F051
 #define FILE_NAME				"FLYCOLOR_F051"
-#define FIRMWARE_NAME           "Flycolor Gen"
+#define FIRMWARE_NAME           "PokkuESC_A"
 #define DEAD_TIME               45
 #define HARDWARE_GROUP_F0_A
 //#define USE_SERIAL_TELEMETRY
