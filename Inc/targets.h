@@ -15,18 +15,19 @@
 //#define WRAITH32V2_F051
 //#define AIKON20X20_F051
 //#define AIKONSINGLE_F051
-#define FLYCOLOR_F051
+//#define FLYCOLOR_F051
 //#define AM32REF_F051
 //#define BLPWR_F051
 //#define HVFLYCOLOR_F051
 //#define FLASHHOBBY_F051
 //#define SEQURE_G071
 //#define RHINO80A_F051
+#define DYSARIA_F051
 
 
 
 //#define REF_F031
-//#define NEUTRON_G071
+#define NEUTRON_G071
 //#define GEN_64K_G071
 //#define PWM_ENABLE_G071
 //#define OPEN_DRAIN_G071
@@ -229,7 +230,7 @@
 
 #ifdef FLYCOLOR_F051
 #define FILE_NAME				"FLYCOLOR_F051"
-#define FIRMWARE_NAME           "PokkuESC_A"
+#define FIRMWARE_NAME           "Flycolor Gen"
 #define DEAD_TIME               45
 #define HARDWARE_GROUP_F0_A
 //#define USE_SERIAL_TELEMETRY
@@ -300,6 +301,15 @@
 #define USE_SERIAL_TELEMETRY
 #define SLOW_RAMP_DOWN
 #endif
+
+#ifdef DYSARIA_F051
+#define FILE_NAME				"FLYCOLOR_F051"
+#define FIRMWARE_NAME           "PokkuESC_A"
+#define DEAD_TIME               45
+#define HARDWARE_GROUP_F0_A
+//#define USE_SERIAL_TELEMETRY
+#define PA6_VOLTAGE
+#endif
 /*******************************   G071 Targets *********************************/
 
 #ifdef  GEN_64K_G071
@@ -358,7 +368,7 @@
 
 #ifdef  NEUTRONRC_G071
 #define FILE_NAME				"NEUTRONRC_G071"
-#define FIRMWARE_NAME  			"NeutronRC G0"
+#define FIRMWARE_NAME  			"PokkuESC_B"
 #define DEAD_TIME               60
 #define MILLIVOLT_PER_AMP       33
 #define CURRENT_OFFSET          0
